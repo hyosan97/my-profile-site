@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박창호 - 프리랜서 개발자</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-900">
+    <!-- 헤더 / 네비게이션 -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur shadow-sm">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-4xl font-bold bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">
+                박창호
+            </div>
+            <ul class="flex gap-8">
+                <li><a href="#about" class="nav-link text-gray-700 hover:text-red-600 transition">About</a></li>
+                <li><a href="#skills" class="nav-link text-gray-700 hover:text-red-600 transition">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link text-gray-700 hover:text-red-600 transition">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link text-gray-700 hover:text-red-600 transition">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="pt-32 pb-20 px-6 bg-gradient-to-br from-red-800 via-red-700 to-red-900 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-6xl font-bold mb-4">박창호</h1>
+            <p class="text-2xl font-light mb-6 text-blue-100">프리랜서</p>
+            <p class="text-xl text-blue-50 max-w-2xl mx-auto mb-8">
+                "시작이절반이다"에서 절반만 하는애
+            </p>
+            <a href="#portfolio" class="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-red-50 transition transform hover:scale-105">
+                포트폴리오 보기
+            </a>
+        </div>
+    </section>
+
+    <!-- About 섹션 -->
+    <section id="about" class="py-20 px-6 bg-red-50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-gray-900">About Me</h2>
+            <div class="bg-white rounded-lg shadow-md p-8">
+                <p class="text-lg text-gray-700 leading-8 mb-4">
+                    저는 박창호이며, 프리랜서로 활동하고 있습니다.
+                </p>
+                <p class="text-lg text-gray-700 leading-8 mb-4">
+                    "시작이절반이다"라는 철학으로, 새로운 프로젝트를 시작할 때는 항상 신중하게 첫 발을 내딛으려고 노력합니다.
+                    절반만 하는 것처럼 보이지만, 그것이 가장 중요한 부분이라고 믿습니다.
+                </p>
+                <p class="text-lg text-gray-700 leading-8">
+                    다양한 기술과 도구를 활용하여 문제를 해결하는 것을 즐기며, 항상 배우고 성장하려는 자세를 유지하고 있습니다.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills 섹션 -->
+    <section id="skills" class="py-20 px-6 bg-gradient-to-br from-red-50 to-red-100">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Skills & Tools</h2>
+            <div class="bg-white rounded-lg shadow-md p-8 text-center">
+                <div class="text-3xl font-bold bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-transparent mb-4">
+                    타이탄의 도구
+                </div>
+                <p class="text-gray-700 text-lg">
+                    강력한 기술 스택과 다양한 도구들을 활용하여 최고 수준의 프로젝트를 완성합니다.
+                </p>
+                <div class="mt-8 grid grid-cols-3 gap-4">
+                    <div class="p-4 bg-red-100 rounded-lg">
+                        <p class="font-semibold text-red-700">Front-end</p>
+                    </div>
+                    <div class="p-4 bg-red-200 rounded-lg">
+                        <p class="font-semibold text-red-800">Back-end</p>
+                    </div>
+                    <div class="p-4 bg-red-150 rounded-lg">
+                        <p class="font-semibold text-red-700">Tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio 섹션 -->
+    <section id="portfolio" class="py-20 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl font-bold mb-12 text-center text-gray-900">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 프로젝트 1 -->
+                <div class="portfolio-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition">
+                    <div class="bg-gradient-to-br from-red-600 to-red-700 h-48 flex items-center justify-center">
+                        <span class="text-white text-6xl">📱</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">프로젝트 1</h3>
+                        <p class="text-gray-700 mb-4">
+                            첫 번째 프로젝트에 대한 설명입니다. 기술 스택과 구현 내용을 자유롭게 작성하세요.
+                        </p>
+                        <div class="flex gap-2">
+                            <a href="#" class="inline-block text-red-600 hover:text-red-700 font-semibold">GitHub →</a>
+                            <a href="#" class="inline-block text-red-700 hover:text-red-800 font-semibold ml-4">Live →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 프로젝트 2 -->
+                <div class="portfolio-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition">
+                    <div class="bg-gradient-to-br from-red-700 to-red-800 h-48 flex items-center justify-center">
+                        <span class="text-white text-6xl">🚀</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">프로젝트 2</h3>
+                        <p class="text-gray-700 mb-4">
+                            두 번째 프로젝트에 대한 설명입니다. 기술 스택과 구현 내용을 자유롭게 작성하세요.
+                        </p>
+                        <div class="flex gap-2">
+                            <a href="#" class="inline-block text-red-600 hover:text-red-700 font-semibold">GitHub →</a>
+                            <a href="#" class="inline-block text-red-700 hover:text-red-800 font-semibold ml-4">Live →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 프로젝트 3 -->
+                <div class="portfolio-card bg-white rounded-lg shadow-md overflow-hidden hover:shadow-2xl transition">
+                    <div class="bg-gradient-to-br from-red-500 to-red-600 h-48 flex items-center justify-center">
+                        <span class="text-white text-6xl">💡</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">프로젝트 3</h3>
+                        <p class="text-gray-700 mb-4">
+                            세 번째 프로젝트에 대한 설명입니다. 기술 스택과 구현 내용을 자유롭게 작성하세요.
+                        </p>
+                        <div class="flex gap-2">
+                            <a href="#" class="inline-block text-red-600 hover:text-red-700 font-semibold">GitHub →</a>
+                            <a href="#" class="inline-block text-red-700 hover:text-red-800 font-semibold ml-4">Live →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact 섹션 -->
+    <section id="contact" class="py-20 px-6 bg-gradient-to-br from-red-50 to-red-100">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8 text-gray-900">Contact</h2>
+            <div class="bg-white rounded-lg shadow-md p-16">
+                <p class="text-2xl font-bold text-gray-900 mb-4">비밀입니다 🤫</p>
+                <p class="text-gray-700 text-lg">
+                    연락처는 비밀이지만, 흥미로운 프로젝트가 있다면 언제든 찾아오세요!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="bg-gray-900 text-white py-8 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <p class="text-gray-400">© 2024 박창호. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

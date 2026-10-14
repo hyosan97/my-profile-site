@@ -1,0 +1,41 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node.js (if ever added)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python (if ever added)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Build and dist directories (if ever added)
+dist/
+build/
+*.zip
+
+# Local development files
+.env.local
+.env.*.local
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
